@@ -1,0 +1,25 @@
+/* CSS para ocultar o contador regressivo */
+#countdown-bec2110a {
+    display: none !important;
+}
+
+/* Ocultar elementos relacionados ao timer */
+.TimerUi-sc-1xn47j-0,
+.bNsEKE,
+.TimerItemUi__StyledCounterItem-sc-ebseb2-2,
+.lbmRfu,
+.TimerItemUi__StyledCounterItemTime-sc-ebseb2-0,
+.dCDyCO,
+.TimerItemUi__StyledCounterItemLabel-sc-ebseb2-1,
+.lmoQHt,
+.TimerItemDelimiterUi-sc-1469l1d-0,
+.bmbtcw {
+    display: none !important;
+}
+
+/* Ocultar qualquer elemento que contenha texto relacionado ao timer */
+[class*="Timer"],
+[id*="countdown"],
+[class*="countdown"] {
+    display: none !important;
+}
